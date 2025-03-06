@@ -5,7 +5,12 @@ import { PROJECTS, SOCIALS } from './data.jsx'
 
 import './App.css'
 
+function getRandomNumber(max) {
+  return Math.random() * (max)
+}
+
 function App() {
+  const greetings = ['friend', 'fellow traveler', 'gorgeous']
 
   return (
     <>
@@ -25,7 +30,7 @@ function App() {
         <hr></hr>
         <div className='message'>
           <p>
-            Hi there, friend! I am currently learning some new skills to help me cook up a brand new portfolio experience 🧑🏽‍🍳
+            Hi there, {greetings[Math.floor(Math.random() * greetings.length)]}! I am currently learning some new skills to help me cook up a brand new portfolio experience 🧑🏽‍🍳
           </p>
           <p>
             While you are here, feel free to check out the <a href="https://storage.googleapis.com/msgsndr/Ft134C7rx0umgjzkwKko/media/67be570475f42bb163363972.pdf">PDF version</a> of my portfolio, or browse some of the stuff I've made so far!
@@ -34,7 +39,7 @@ function App() {
       </section>
       <section className='projects'>
         <h2>Current Projects</h2>
-        <p>Alongside my spiritual and graphic design studies, I am currently working on my front-end development skills!</p>
+        <p>Alongside my spiritual and design studies, I am currently working on my front-end development skills!</p>
         <div className="projectContainer">
           {PROJECTS.map((value, index) => {
             return <ProjectCard key={index} {...PROJECTS[index]}/>
