@@ -51,7 +51,7 @@ function App() {
         </ul>
       </section>
       <footer>
-        Last Updated: March 5, 2025 | Built with <a href="https://react.dev" target='_blank'>React.JS</a>
+        Last Updated: March 5, 2025 | Built from scratch with <a href="https://react.dev" target='_blank'>React.JS</a> and a little ❤️
       </footer>
     </>
   )
