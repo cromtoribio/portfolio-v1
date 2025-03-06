@@ -28,14 +28,14 @@
 
 @font-face {
   font-family: 'Visuelt';
-  src: url('./fonts/VisueltPro-Regular.ttf');
+  src: url('/fonts/VisueltPro-Regular.ttf');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Visuelt';
-  src: url('./fonts/VisueltPro-Bold.ttf');
+  src: url('/fonts/VisueltPro-Bold.ttf');
   font-weight: 600;
   font-style: normal;
 }
