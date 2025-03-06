@@ -1,27 +1,27 @@
 @font-face {
   font-family: "Recoleta";
-  src: url('./fonts/Recoleta-Black.otf');
+  src: url('/fonts/Recoleta-Black.otf') format('opentype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Recoleta";
-  src: url('./fonts/Recoleta-Medium.ttf');
+  src: url('/fonts/Recoleta-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Visuelt';
-  src: url('./fonts/VisueltPro-ExtraLight.ttf');
+  src: url('/fonts/VisueltPro-ExtraLight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Visuelt';
-  src: url('./fonts/VisueltPro-Light.ttf');
+  src: url('/fonts/VisueltPro-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
