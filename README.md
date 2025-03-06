@@ -3,4 +3,4 @@ This is the first version of my portfolio as a budding Experience Architect dipp
 
 Right now, I am learning Three.JS, 3D modelling, and React.JS to help bolster my skills!
 
-This version of my portfolio is using React.JS only, though I hope to build on it as I go!
+This version of my portfolio is using React.JS only, though I hope to build on it as I go!git 
