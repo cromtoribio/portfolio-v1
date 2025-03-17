@@ -3,7 +3,7 @@
     color: rgba(22,33,19,1);
     background-color: #FCBE4D;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     border: 1px solid rgba(22,33,19,1);
     border-radius: 8px;
     filter: drop-shadow(0.5rem 0.5rem 0.75rem rgba(22,33,19,1));
@@ -18,7 +18,7 @@
     font-weight: 300;
     color: #FCBE4D;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     border: 1px solid #FCBE4D;
     border-radius: 8px;
   }

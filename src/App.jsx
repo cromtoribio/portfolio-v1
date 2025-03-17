@@ -21,12 +21,12 @@ function App() {
             <Button 
               type="primary-button" 
               link="https://storage.googleapis.com/msgsndr/Ft134C7rx0umgjzkwKko/media/67be570475f42bb163363972.pdf"
-            >PDF Portfolio</Button>
+            >Peep the PDF Portfolio </Button>
             <Button
               type="secondary-button"
               link='https://thehub-api.mastermind.com/widget/form/R8dHa1tkIEQwP8YxScLY'
             >
-              Want to know when it's done?
+              Let Me Know When It's Live! 
             </Button>
           </div>
         </main>

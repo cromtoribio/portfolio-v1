@@ -40,7 +40,7 @@ export const GREETINGS = [
     {
         title: 'Welcome friend! 🌹',
         subtitle: 'Experience Architect, Designer, Philosopher',
-        description: "You've found the soon-to-be home of Chris Toribio's portfolio — a virtual world for you to explore all that he has to offer! While he is in the midst of crafting the experience, he left a pdf version waiting just for you. 😇"
+        description: "You've arrived at the soon-to-be home of Chris Toribio’s portfolio—a virtual space designed for you to explore all that he has to offer! While he’s busy crafting this experience, he’s left a PDF version just for you. Enjoy! 😇"
     },
     {
         title: 'Houston, We Have a Redesign 🚀',
