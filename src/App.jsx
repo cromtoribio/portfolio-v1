@@ -13,7 +13,7 @@ function App() {
       <div className="welcome">
         <header className="header">
           <div className="logo"><WhiteLogo /></div>
-          <span className='name'>CHRIS TORIBIO</span>
+          <span className='name desktop-only'>CHRIS TORIBIO</span>
         </header>
         <main className="middle">
           <Greeting />
