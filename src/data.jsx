@@ -35,3 +35,36 @@ export const SOCIALS = [
         link: 'https://www.linkedin.com/in/cromtoribio/'
     }
 ]
+
+export const GREETINGS = [
+    {
+        title: 'Hey friend! My name is Chris Toribio 🌹',
+        subtitle: 'Experience Architect, Designer, Philosopher',
+        description: "You've caught me mid-redesign! Like any good creator, I'm iterating. For now, grab my PDF portfolio for the complete experience."
+    },
+    {
+        title: 'Houston, We Have a Redesign 🚀',
+        subtitle: 'Mission: Create an out-of-this-world portfolio',
+        description: 'The rocket is still being built, but the PDF blueprints are ready for your viewing!'
+    },
+    {
+        title: 'Warning: Creative Construction in Progress 👷🏽‍♂️',
+        subtitle: "Hard hat tours will be available soon!",
+        description: 'Mind the gap between my ideas and this temporary page. Feel free to detour through the PDF in the meantime!'
+    },
+    {
+        title: 'Pardon the Digital Dust ✨',
+        subtitle: 'A shiny new experience is on the way',
+        description: 'The architect is hard at work, but feel free to check out the PDF blueprints while you wait!'
+    },
+    {
+        title: "Oops! You're Early to the Party 😱",
+        subtitle: "The confetti and fancy design are still on their way",
+        description: "Grab my portfolio while I finish hanging the decorations!"
+    },
+    {
+        title: "Plot Twist: Website Under Construction 🚧",
+        subtitle: "The architect is still drawing up the blueprints",
+        description: "While we're busy moving digital furniture around, feel free to check out the PDF version!"
+    },
+]

@@ -42,10 +42,56 @@
 
 
 #root {
-  max-width: 1280px;
+  height: 100vh;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem;
+}
+
+.welcome .header{
+  width: 100%;
+  flex-grow: 0;
+  padding: 1.5rem 2rem;
+}
+
+.welcome .middle {
+  flex-grow: 1;
+  align-content: center;
+  padding: 2rem;
+}
+
+.welcome .foot {
+  padding: 0 2rem;
+  display: flex;
+  align-content: end;
+  width: 100%;
+}
+
+.foot .socials {
+  flex-grow: 1;
+}
+
+.foot .details {
+  flex-grow: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .name {
+  font-size: 1.75rem;
+  font-family: 'Recoleta', 'serif';
+  font-weight: 600;
+  align-content: center;
 }
 
 .logo {
@@ -55,7 +101,11 @@
   transition: filter 300ms;
 }
 
-.titles ul {
+.middle p {
+  font-size: 1.2rem;
+}
+
+/* .titles ul {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -116,13 +166,7 @@ hr {
 .projectCard h3 {
   margin: 0;
   padding-bottom: 0.5em;
-}
-
-@media screen and (max-width: 480px) {
-  .projectCard {
-    width: 100%;
-  }
-}
+} */
 
 .socials {
   display: flex;
@@ -138,4 +182,19 @@ hr {
 
 .socials li:hover {
   color: #FCBE4D;
+} 
+
+@media screen and (max-width: 480px) {
+  .welcome .middle {
+    padding-bottom: 0rem;
+  }
+  .welcome .header {
+    padding: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header .name {
+    font-weight: 300;
+    margin-top: 1rem;
+  }
 }

@@ -1,3 +1,6 @@
+* {
+ box-sizing: border-box;
+}
 
 :root {
   font-family: 'Visuelt', system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -16,7 +19,7 @@
 a {
   font-weight: 600;
   color: #FCBE4D;
-  text-decoration: inherit;
+  text-decoration: underline;
 }
 a:hover {
   color: #d59e38;
@@ -29,14 +32,17 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #213547;
+  background: rgb(22,33,19);
+  background: linear-gradient(30deg, rgba(22,33,19,1) 0%, rgba(53,79,46,1) 100%);
+  /* background: rgb(33,53,71);
+  background: linear-gradient(30deg, rgba(33,53,71,1) 0%, rgba(26,55,82,1) 35%, rgba(42,76,106,1) 100%); */
 }
 
 h1 {
   font-family: 'Recoleta', serif;
   font-weight: 800;
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 3rem;
+  line-height: 1.2;
   margin: 0;
 }
 
@@ -72,3 +78,14 @@ button:focus-visible {
   }
 }
 
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  .desktop-only {
+    display: none;
+  }
+}

@@ -1,63 +1,45 @@
-import eyeLogo from './assets/whitelogo.svg'
-import ProjectCard from './components/ProjectCard'
+import WhiteLogo from './components/Logos/WhiteLogo.jsx'
+import Button from './components/Button.jsx'
+import Greeting from './components/Greeting.jsx'
 import Socials from './components/Socials.jsx'
-import { PROJECTS, SOCIALS } from './data.jsx'
+import { SOCIALS } from './data.jsx'
 
 import './App.css'
 
-function getRandomNumber(max) {
-  return Math.random() * (max)
-}
-
 function App() {
-  const greetings = ['friend', 'fellow traveler', 'gorgeous']
 
   return (
     <>
-      <header>
-        <img src={eyeLogo} className="logo" alt="Chris Eye Logo" />
-        <h1>CHRIS TORIBIO</h1>
-        <hr></hr>
-        <div className="titles">
-          <ul>
-            <li>Experience Architect 🚀</li>
-            <li>Graphic Designer 👨🏽‍🎨</li>
-            <li>Spiritual Psychonaut 👩🏽‍🚀</li>
+      <div className="welcome">
+        <header className="header">
+          <div className="logo"><WhiteLogo /></div>
+          <span className='name'>CHRIS TORIBIO</span>
+        </header>
+        <main className="middle">
+          <Greeting />
+          <div className='button-container'>
+            <Button 
+              type="primary-button" 
+              link="https://storage.googleapis.com/msgsndr/Ft134C7rx0umgjzkwKko/media/67be570475f42bb163363972.pdf"
+            >PDF Portfolio</Button>
+            <Button
+              type="secondary-button"
+              link='https://thehub-api.mastermind.com/widget/form/R8dHa1tkIEQwP8YxScLY'
+            >
+              Want to know when I'm done?
+            </Button>
+          </div>
+        </main>
+        <footer className="foot">
+          <p className='details desktop-only'>Last Updated March 17, 2025</p>
+          <ul className='socials'>
+            {SOCIALS.map((value, index) => {
+              return <Socials key={index} {...SOCIALS[index]} />
+            })}
           </ul>
-        </div>
-      </header>
-      <section>
-        <hr></hr>
-        <div className='message'>
-          <p>
-            Hi there, {greetings[Math.floor(Math.random() * greetings.length)]}! I am currently learning some new skills to help me cook up a brand new portfolio experience 🧑🏽‍🍳
-          </p>
-          <p>
-            While you are here, feel free to check out the <a href="https://storage.googleapis.com/msgsndr/Ft134C7rx0umgjzkwKko/media/67be570475f42bb163363972.pdf">PDF version</a> of my portfolio, or browse some of the stuff I've made so far!
-          </p>
-        </div>
-      </section>
-      <section className='projects'>
-        <h2>Current Projects</h2>
-        <p>Alongside my spiritual and design studies, I am currently working on my front-end development skills!</p>
-        <div className="projectContainer">
-          {PROJECTS.map((value, index) => {
-            return <ProjectCard key={index} {...PROJECTS[index]}/>
-          })}
-        </div>
-      </section>
-      <section>
-        <h2>Let's Connect!</h2>
-        <p>If you would like to be notified when a new version of this website is available, <a href="https://thehub-api.mastermind.com/widget/form/R8dHa1tkIEQwP8YxScLY" target='_blank'>fill out this form!</a></p>        
-        <ul className='socials'>
-          {SOCIALS.map((value, index) => {
-            return <Socials key={index} {...SOCIALS[index]}/>
-          })}
-        </ul>
-      </section>
-      <footer>
-        Last Updated: March 5, 2025 | Built from scratch with <a href="https://react.dev" target='_blank'>React.JS</a> and a little ❤️
-      </footer>
+          <p className='details desktop-only'>Built with React & Lots of Love &#9825;</p>
+        </footer>
+      </div>
     </>
   )
 }
