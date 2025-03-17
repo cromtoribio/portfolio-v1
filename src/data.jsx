@@ -38,9 +38,9 @@ export const SOCIALS = [
 
 export const GREETINGS = [
     {
-        title: 'Hey friend! My name is Chris Toribio 🌹',
+        title: 'Welcome friend! 🌹',
         subtitle: 'Experience Architect, Designer, Philosopher',
-        description: "You've caught me mid-redesign! Like any good creator, I'm iterating. For now, grab my PDF portfolio for the complete experience."
+        description: "You've found the soon-to-be home of Chris Toribio's portfolio — a virtual world for you to explore all that he has to offer! While he is in the midst of crafting the experience, he left a pdf version waiting just for you. 😇"
     },
     {
         title: 'Houston, We Have a Redesign 🚀',

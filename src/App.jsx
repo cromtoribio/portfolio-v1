@@ -26,7 +26,7 @@ function App() {
               type="secondary-button"
               link='https://thehub-api.mastermind.com/widget/form/R8dHa1tkIEQwP8YxScLY'
             >
-              Want to know when I'm done?
+              Want to know when it's done?
             </Button>
           </div>
         </main>

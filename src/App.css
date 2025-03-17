@@ -63,8 +63,14 @@
 
 .welcome .middle {
   flex-grow: 1;
-  align-content: center;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
+}
+
+.welcome .middle .description {
+  margin: 0 auto;
+  width: 50%;
 }
 
 .welcome .foot {
@@ -184,6 +190,9 @@ hr {
   color: #FCBE4D;
 } 
 
+
+
+
 @media screen and (max-width: 480px) {
   #root {
     height: 100%;
@@ -192,7 +201,10 @@ hr {
     text-align: center;
   }
   .welcome .middle {
-    padding-bottom: 0rem;
+    padding: 0.5rem;
+  }
+  .welcome .middle .description {
+    width: 100%;
   }
   .welcome .header {
     padding: 1.5rem;
