@@ -63,8 +63,7 @@
 
 .welcome .middle {
   flex-grow: 1;
-  align-items: center;
-  justify-content: center;
+  align-content: center;
   padding: 2rem;
 }
 
@@ -183,7 +182,7 @@ hr {
 
 .socials li {
   list-style: none;
-  margin: 0 0.5em;
+  margin: 0 0.5rem;
 }
 
 .socials li:hover {

@@ -1,7 +1,13 @@
-export default function Socials({ image, link }) {
+import { SOCIALS } from "../data"
+
+export default function Socials() {
     return <>
-        <li>
-            <a href={link}><img src={image}/></a>
-        </li>
+            {SOCIALS.map((social, index) => {
+              return (
+                <li key={index}>
+                    <a  key={index} href={social.link}><img src={social.image}/></a>
+                </li>
+              )
+            })}
     </>
 }

@@ -38,33 +38,46 @@ export const SOCIALS = [
 
 export const GREETINGS = [
     {
-        title: 'Welcome friend! 🌹',
-        subtitle: 'Experience Architect, Designer, Philosopher',
-        description: "You've arrived at the soon-to-be home of Chris Toribio’s portfolio—a virtual space designed for you to explore all that he has to offer! While he’s busy crafting this experience, he’s left a PDF version just for you. Enjoy! 😇"
+        title: 'Welcome, friend! 🌹',
+        description: "You've arrived at the soon-to-be home of Chris Toribio’s portfolio—a virtual space designed for you to explore all that he has to offer! While he’s busy crafting this experience, he’s left a PDF version just for you. Enjoy! 😇",
+        button1: 'View PDF Portfolio',
+        button2: 'Let Me Know When It’s Live!'
     },
     {
-        title: 'Houston, We Have a Redesign 🚀',
-        subtitle: 'Mission: Create an out-of-this-world portfolio',
-        description: 'The rocket is still being built, but the PDF blueprints are ready for your viewing!'
+        title: 'Hey, You Found Me! 👀',
+        description: "This is where my portfolio will live soon! While I’m putting on the finishing touches, you can peep the PDF version right now. Stay tuned for the full experience! 🚀",
+        button1: 'Peep the PDF Portfolio',
+        button2: 'Get Notified When It’s Live!'
     },
     {
-        title: 'Warning: Creative Construction in Progress 👷🏽‍♂️',
-        subtitle: "Hard hat tours will be available soon!",
-        description: 'Mind the gap between my ideas and this temporary page. Feel free to detour through the PDF in the meantime!'
+        title: 'A Work in Progress… ✨',
+        description: "You're looking at the soon-to-be home of my portfolio! While the full experience is still brewing, a PDF version is ready for you. Take a peek! 😏",
+        button1: 'See the PDF Portfolio',
+        button2: 'Keep Me in the Loop!'
     },
     {
-        title: 'Pardon the Digital Dust ✨',
-        subtitle: 'A shiny new experience is on the way',
-        description: 'The architect is hard at work, but feel free to check out the PDF blueprints while you wait!'
+        title: 'Oh Hey There! 👋',
+        description: "You’ve landed on my soon-to-be portfolio! It’s still under construction, but don’t worry—I left a PDF for you to explore in the meantime. Take a look! 😇",
+        button1: 'Check Out the PDF',
+        button2: 'Tell Me When It’s Ready!'
     },
     {
-        title: "Oops! You're Early to the Party 😱",
-        subtitle: "The confetti and fancy design are still on their way",
-        description: "Grab my portfolio while I finish hanging the decorations!"
+        title: 'Big Things Are Coming! 🚀',
+        description: "You're in the right place! My portfolio is getting a glow-up, but you can still check out the PDF version while I build. Can’t wait to share more soon! 🎉",
+        button1: 'View PDF Portfolio',
+        button2: 'Let Me Know When It’s Live!'
     },
     {
-        title: "Plot Twist: Website Under Construction 🚧",
-        subtitle: "The architect is still drawing up the blueprints",
-        description: "While we're busy moving digital furniture around, feel free to check out the PDF version!"
+        title: 'Welcome to the Vision! ✨',
+        description: "This space is transforming into something super special. While I bring it to life, you can browse the PDF version now. Excited to share more with you soon! 🌿",
+        button1: 'Take a Look at the PDF',
+        button2: 'Send Me an Update When It’s Live!'
     },
+    {
+        title: 'Something Cool Is on the Way… 🤫',
+        description: "This is where my portfolio will live soon! While I’m working behind the scenes, I’ve got a PDF ready for you to explore. Stay tuned for what’s next! 👀",
+        button1: 'Sneak Peek: PDF Portfolio',
+        button2: 'Keep Me Posted!'
+    }
+
 ]
